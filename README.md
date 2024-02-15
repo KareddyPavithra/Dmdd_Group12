@@ -3,7 +3,7 @@
 
 ## Description
 
-<b>Online Food Ordering Management System</b> is an application that allows users to view menu items and place orders. The restaurant management can manage real-time orders. The project is built using SQL and the GUI is built using HTML, CSS and Bootstrap. The database objects used are views, trigger, stored procedures, UDF and encryption.
+<b>Online Food Ordering Management System</b> is an application that allows users to view menu items and place orders. The restaurant management can manage real-time orders. The project is built using SQL and the GUI is built using HTML, CSS and Bootstrap. The database objects used are views, triggers, stored procedures, UDF and encryption.
 
 ## Tech Stack
 
@@ -22,8 +22,15 @@
 
 Take a look at the database of our application
 
+The below is a view to check delivered orders along with the restaurant name:
 ![Views](https://github.com/KareddyPavithra/Dmdd_Group12/blob/main/SQL%20Output%20Screenshots/2023-04-12%20(16).png)
+
+The below is a stored procedure to display the dish with maximum price:
 ![Stored procedure](https://github.com/KareddyPavithra/Dmdd_Group12/blob/main/SQL%20Output%20Screenshots/2023-04-12%20(22).png)
+
+The below is a trigger to send notification to the customer when the order is delivered:
 ![Trigger](https://github.com/KareddyPavithra/Dmdd_Group12/blob/main/SQL%20Output%20Screenshots/2023-04-12%20(24).png)
+
+The below is column data encryption to encrypt the email id's of the customers
 ![Encryption](https://github.com/KareddyPavithra/Dmdd_Group12/blob/main/SQL%20Output%20Screenshots/2023-04-12%20(25).png)
 
